@@ -1,5 +1,5 @@
-const zip = require("lodash/zip");
-const fetch = require("node-fetch");
+import zip from "lodash/zip";
+import fetch from "node-fetch";
 
 enum Duration {
   "1_MINUTE" = 1,
