@@ -1,0 +1,40 @@
+dependencies:
+  preact-iso: 0.2.0
+devDependencies:
+  prettier: 2.2.1
+  wmr: 1.0.0
+lockfileVersion: 5.2
+packages:
+  /fsevents/2.2.1:
+    dev: true
+    engines:
+      node: ^8.16.0 || ^10.6.0 || >=11.0.0
+    optional: true
+    os:
+      - darwin
+    resolution:
+      integrity: sha512-bTLYHSeC0UH/EFXS9KqWnXuOl/wHK5Z/d+ghd5AsFMYN7wIGkUCOJyzy88+wJKkZPGON8u4Z9f6U4FdgURE9qA==
+  /preact-iso/0.2.0:
+    dev: false
+    resolution:
+      integrity: sha512-p8FJRt55aXpb2TAL3JsiTP1YJm7XqIXb8mf7LVrMNoQRHW0VvqXNvIFYmHOIJArGlIIOb2v1w9o6/edOnSQFvA==
+  /prettier/2.2.1:
+    dev: true
+    engines:
+      node: '>=10.13.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+  /wmr/1.0.0:
+    dev: true
+    engines:
+      node: '>=12.16'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.2.1
+    resolution:
+      integrity: sha512-e4skIObjY4V7tERFSTemBw2RXuj0eDpJEVqPggMtwFlDqeCGD1g7aS32ElEf+AfreF2hSAN/F1lB7j1PHUlBdw==
+specifiers:
+  preact-iso: ^0.2.0
+  prettier: ^2.2.1
+  wmr: ^1.0.0
