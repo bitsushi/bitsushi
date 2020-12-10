@@ -7,6 +7,7 @@ dependencies:
   '@types/react': 16.14.2
   '@types/react-dom': 16.9.10
   axios: 0.21.0
+  big.js: 6.0.3
   cheerio: 1.0.0-rc.3
   d3-sankey-diagram: 0.8.0
   portfolio-allocation: 0.0.11
@@ -2964,6 +2965,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
+  /big.js/6.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-n6yn1FyVL1EW2DBAr4jlU/kObhRzmr+NNRESl65VIOT8WBJj/Kezpx2zFdhJUqYI6qrtTW7moCStYL5VxeVdPA==
   /binary-extensions/1.13.1:
     dev: false
     engines:
@@ -12313,6 +12318,7 @@ specifiers:
   '@types/react': ^16.9.53
   '@types/react-dom': ^16.9.8
   axios: ^0.21.0
+  big.js: ^6.0.3
   cheerio: ^1.0.0-rc.3
   d3-sankey-diagram: ^0.8.0
   portfolio-allocation: ^0.0.11
